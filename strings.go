@@ -2,6 +2,7 @@ package strutils
 
 import "strings"
 
+// Concat will return a concatenation of all the given strings
 func Concat(strs ...string) string {
 	if len(strs) == 0 {
 		return ""
